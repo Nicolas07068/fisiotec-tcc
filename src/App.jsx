@@ -1,25 +1,30 @@
-import Home from '../pages/Home.jsx'
-import Objetivo from '../pages/Objetivos.jsx'
-import Revolucao from '../pages/Revolucao.jsx'
-import Baseamento from '../pages/Baseamento.jsx'
-import Produto from '../pages/Produto.jsx'
-import Componentes from '../pages/Componentes.jsx'
-import ComoUsar from '../pages/ComoUsar.jsx'
-import Desenvolvedores from '../pages/Desenvolvedores.jsx'
-import ReferenciasBibliograficas from '../pages/ReferenciasBibliograficas.jsx'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-export default function App() {
+import Home from './components/Home.jsx'
+import Objetivo from './pages/Objetivos.jsx'
+import Revolucao from './pages/Revolucao.jsx'
+import Baseamento from './pages/Baseamento.jsx'
+import Produto from './pages/Produto.jsx'
+import Componentes from './pages/Componentes.jsx'
+import ComoUsar from './pages/ComoUsar.jsx'
+import Desenvolvedores from './pages/Desenvolvedores.jsx'
+import ReferenciasBibliograficas from './pages/ReferenciasBibliograficas.jsx'
+
+function App() {
   return(
-    <div>
-      <Home></Home>
-      <Objetivo></Objetivo>
-      <Revolucao></Revolucao>
-      <Baseamento></Baseamento>
-      <Produto></Produto>
-      <Componentes></Componentes>
-      <ComoUsar></ComoUsar>
-      <Desenvolvedores></Desenvolvedores>
-      <ReferenciasBibliograficas></ReferenciasBibliograficas>
-    </div>
-  )
+      <BrowserRouter>
+              <Routes>
+                  <Route path="/" element={<Home/>} />
+                  <Route path="/objetivo" element={<Objetivo/>} />
+                  <Route path="/revolucao" element={<Revolucao/>} />
+                  <Route path="/baseamento" element={<Baseamento/>} />
+                  <Route path="/produto" element={<Produto/>} />
+                  <Route path="/componentes" element={<Componentes/>} />
+                  <Route path="/comoUsar" element={<ComoUsar/>} />
+                  <Route path="/desenvolvedores" element={<Desenvolvedores/>} />
+                  <Route path="/referenciasBibliograficas" element={<ReferenciasBibliograficas/>} />
+              </Routes>
+      </BrowserRouter>
+   );
 }
+export default App;
