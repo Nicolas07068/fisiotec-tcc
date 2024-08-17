@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from './components/Home.jsx'
 import Objetivo from './pages/Objetivos.jsx'
-import Revolucao from './pages/Revolucao.jsx'
 import Baseamento from './pages/Baseamento.jsx'
 import Produto from './pages/Produto.jsx'
 import Componentes from './pages/Componentes.jsx'
@@ -16,7 +15,6 @@ function App() {
               <Routes>
                   <Route path="/" element={<Home/>} />
                   <Route path="/objetivo" element={<Objetivo/>} />
-                  <Route path="/revolucao" element={<Revolucao/>} />
                   <Route path="/baseamento" element={<Baseamento/>} />
                   <Route path="/produto" element={<Produto/>} />
                   <Route path="/componentes" element={<Componentes/>} />
