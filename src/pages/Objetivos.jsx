@@ -5,7 +5,7 @@ import Rev3 from '../assets/rev-3.svg'
 
 export default function Objetivos() {
   return (
-    <section  > 
+    <section className='overflow-x-hidden '  > 
       <Header />
       <div className='xl:flex xl:items-center xl:justify-center xl:gap-7'>
         <div className='bg-bg-dev h-36 mt-10 ml-4 text-white text-xs w-11/12 xl:w-96'>
@@ -35,9 +35,9 @@ export default function Objetivos() {
         </div>
       </div>
 
-      <div className='xl:flex xl:mt-8'>
+      <div className='xl:flex xl:mt-12'>
         <div className='relative h-48 w-44 xl:w-10/12'>
-          <img src={Rev1} alt="Mão robótica" className='absolute top-10 left-10 w-80 xl:w-48 mt-4' />
+          <img src={Rev1} alt="Mão robótica" className='absolute top-10 left-10 w-80 xl:w-56 mt-4' />
           <img src={Rev2} alt="Robô feito de metal" className='absolute top-6 ml-64 h-36 xl:w-44 ml-72 mt-4' />
           <img src={Rev3} alt="Placa de arduino" className='absolute top-48 h-36 ml-64 xl:w-36 ml-72 mt-6' />
         </div>
@@ -48,7 +48,7 @@ export default function Objetivos() {
         REABILITAÇÃO MOTORA!
         </strong>
       </h2>
-      <p className='text-white mt-10 xl:w-1/2 text-justify mt-8 mb-0 ml-0 xl:ml-[205px] xl:text-sm'><i>A Luva Robótica Terapêutica é um dispositivo inovador que utiliza tecnologia Arduino Uno para ajudar pacientes com dificuldades motoras a realizarem exercícios fisioterapêuticos, abrindo e fechando a mão do usuário para facilitar a recuperação.</i></p>
+      <p className='text-white mt-10 xl:w-1/2 text-justify mt-8 mb-0 mr-4 xl:ml-[205px] xl:text-sm'><i>A Luva Robótica Terapêutica é um dispositivo inovador que utiliza tecnologia Arduino Uno para ajudar pacientes com dificuldades motoras a realizarem exercícios fisioterapêuticos, abrindo e fechando a mão do usuário para facilitar a recuperação.</i></p>
       
 
         <button className='mb-10 mt-2 bg-transparent border-2 w-28 rounded-3xl p-1 text-white xl:mt-10 mr-[500px]'>Veja Mais</button>

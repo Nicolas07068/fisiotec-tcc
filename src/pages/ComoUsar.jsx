@@ -7,14 +7,14 @@ export default function ComoUsar() {
     <div className='bg-gradient-to-tr from-bg-produto1 via-bg-produto2 to-bg-produto3'>
       <Header />
       <h2 className='text-white font-bold text-2xl text-center mt-10 xl:mb-16'>
-        <strong className='text-gradient bg-gradient-to-r from-verdinho via-azulzinho to-roxinho bg-clip-text text-transparent xl:text-[26px] xl:mr-2'>
+        <strong className='text-gradient bg-gradient-to-r from-verdinho via-azulzinho to-roxinho bg-clip-text text-transparent mr-2 xl:text-[26px] xl:mr-2'>
           COMO UTILIZAR
         </strong> 
         A LUVA ROBÓTICA TERAPÊUTICA
       </h2>
 
       <div className='xl:flex xl:flex-row-reverse xl:items-start xl:justify-between'>
-        <img src={luva} alt="Luva Robótica Terapêutica" className='h-64 ml-[91px] mt-6 mb-6 xl:ml-0 xl:mt-0 xl:h-[596px] w-[596px] mr-7' />
+        <img src={luva} alt="Luva Robótica Terapêutica" className='h-64 ml-[91px] mt-6 mb-6 xl:ml-0 xl:mt-0 xl:h-[596px] xl:w-[596px] xl:mr-7' />
           
         <div className='text-white text-xs ml-7 mb-10 leading-6 xl:w-96 xl:ml-16 xl:mt-10 xl:text-base'>
           <p><i>1. Vestir a Luva: Coloque a luva na mão afetada, ajustando-a para maior conforto.</i></p>
