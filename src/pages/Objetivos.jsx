@@ -35,14 +35,14 @@ export default function Objetivos() {
         </div>
       </div>
 
-      <div className='xl:flex mt-12'>
+      <div className='xl:flex xl:mt-8'>
         <div className='relative h-48 w-44 xl:w-10/12'>
-          <img src={Rev1} alt="Mão robótica" className='absolute top-10 left-10 w-80 xl:w-56 mt-4' />
+          <img src={Rev1} alt="Mão robótica" className='absolute top-10 left-10 w-80 xl:w-48 mt-4' />
           <img src={Rev2} alt="Robô feito de metal" className='absolute top-6 ml-64 h-36 xl:w-44 ml-72 mt-4' />
           <img src={Rev3} alt="Placa de arduino" className='absolute top-48 h-36 ml-64 xl:w-36 ml-72 mt-6' />
         </div>
 
-      <div className='block mt-44 mb-10 ml-10 xl:text-right mr-16 mt-16 flex-row   '>
+      <div className='block mt-44 mb-10 ml-10 xl:text-right xl:mr-16 xl:mt-16 flex-row   '>
       <h2 className='text-3xl text-white font-semibold '>REVOLUÇÃO NA 
         <strong className='text-gradient bg-gradient-to-r  from-verdinho  via-roxinho to-azulzinho bg-clip-text text-transparent ml-2'>
         REABILITAÇÃO MOTORA!
