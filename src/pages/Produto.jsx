@@ -30,7 +30,7 @@ export default function Produto() {
                     </div>
 
                     </div>
-                    <div className='flex items-center justify-center  mt-10 text-white text-[12px] xl:flex-col xl:ml-[650px] xl:mt-0 xl:-mt-[251px] '>
+                    <div className='flex items-center justify-center  mt-10 text-white text-[12px] xl:flex-col xl:ml-[650px] xl:-mt-[251px] '>
                             <div>
                             <img src={MaoLampadaImg} alt="" className='xl:ml-20 ml-7'/>
                             <p className='xl:h-44 xl:w-48 w-32 xl:text-justify'><i>A luva destaca-se pela tecnologia inovadora do Arduino, foco na reabilitação, acessibilidade financeira e facilidade de uso, garantindo eficácia e inclusão para usuários de diferentes perfis.</i></p>
