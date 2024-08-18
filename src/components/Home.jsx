@@ -20,9 +20,9 @@ export default function Home() {
                 Uma revolução acessível na reabilitação motora, devolvendo independência e qualidade de vida. Experimente tecnologia de ponta para realizar exercícios fisioterapêuticos no conforto de sua casa.
               </i>
             </p>
-            <button className="mt-6 bg-gradient-to-l from-verdinho via-azulzinho to-roxinho text rounded-2xl p-1 text-white w-28">
+            <a href="/objetivo"><button className="mt-6 bg-gradient-to-l from-verdinho via-azulzinho to-roxinho text rounded-2xl p-1 text-white w-28">
               Veja mais
-            </button>
+            </button></a>
           </div>
           <div className="flex justify-center mt-10 lg:mt-0 lg:w-2/5  ">
             <img src={FotoHeader} alt="Imagem de um senhor" className="w-full h-auto max-w-xs lg:max-w-full " />

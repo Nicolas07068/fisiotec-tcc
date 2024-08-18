@@ -17,7 +17,7 @@ export default function Baseamento() {
             <p className='ml-5 text-white w-11/12'><i>Independentemente do que tenha resultado na perda na mobilidade das mãos, essa condição compromete a independência para realizar tarefas, tendo impacto mental e emocional, tais como ansiedade e depressão. Além disso, a realização de exercícios fisioterapêuticos com sessões repetitivas para o fortalecimento, apresenta resultados significativos na recuperação de um indivíduo, sendo essencial para realizar tarefas diárias e recuperar sua autonomia.</i></p>
           
 
-          <button className='mt-6 bg-gradient-to-l  from-verdinho via-azulzinho to-roxinho text rounded-3xl p-1 text-white ml-6 mb-10 w-28 xl:mb-0'>Veja Mais</button>
+          <a href="/produto"><button className='mt-6 bg-gradient-to-l  from-verdinho via-azulzinho to-roxinho text rounded-3xl p-1 text-white ml-6 mb-10 w-28 xl:mb-0'>Veja Mais</button></a>
           </div>
           <div className='flex items-center justify-center xl:w-1/2 xl:ml-20'>
           <img src={Bas1} alt="Mulher surpresa olhando para cima " />
