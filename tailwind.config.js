@@ -20,7 +20,8 @@ export default {
          'bg-produto2' : '##161937',
          'bg-produto3' : '##220c39',
          'bg-dev': '#54A7C180',
-         'bg-objetivo': '#a548c6'
+         'bg-objetivo': '#a548c6',
+         'bg-telas': '#0B0017'
       }
     },
   },
