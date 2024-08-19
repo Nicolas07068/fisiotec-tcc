@@ -13,7 +13,7 @@ export default {
         'verdinho': '#00AEA4', 
          'azulzinho':'#5474C1 ',
          'roxinho': '#AD05C9',
-         'bg-roxo': ' #3d0352',
+         'bg-roxo':'#3D0352',
          'bg-preto': '#3b0454',
          'bg-header' : '#24043b',
          'bg-produto1' : '#0a2233',

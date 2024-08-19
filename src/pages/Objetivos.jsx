@@ -42,13 +42,13 @@ export default function Objetivos() {
           <img src={Rev3} alt="Placa de arduino" className='absolute top-48 h-36 ml-64 xl:w-36 ml-72 mt-6' />
         </div>
 
-      <div className='block mt-44 mb-10 ml-10 xl:text-right xl:mr-16 xl:mt-16 flex-row   '>
+      <div className='block mt-44 mb-10 ml-10 xl:mr-16 xl:mt-16 flex-row   '>
       <h2 className='text-3xl text-white font-semibold '>REVOLUÇÃO NA 
         <strong className='text-gradient bg-gradient-to-r  from-verdinho  via-roxinho to-azulzinho bg-clip-text text-transparent ml-2'>
         REABILITAÇÃO MOTORA!
         </strong>
       </h2>
-      <p className='text-white mt-10 xl:w-1/2 text-justify mt-8 mb-0 mr-4 xl:ml-[205px] xl:text-sm'><i>A Luva Robótica Terapêutica é um dispositivo inovador que utiliza tecnologia Arduino Uno para ajudar pacientes com dificuldades motoras a realizarem exercícios fisioterapêuticos, abrindo e fechando a mão do usuário para facilitar a recuperação.</i></p>
+      <p className='text-white mt-10 xl:w-1/2 text-justify mt-8 mb-0 mr-4  xl:text-sm'><i>A Luva Robótica Terapêutica é um dispositivo inovador que utiliza tecnologia Arduino Uno para ajudar pacientes com dificuldades motoras a realizarem exercícios fisioterapêuticos, abrindo e fechando a mão do usuário para facilitar a recuperação.</i></p>
       
 
         <a href="/baseamento"><button className='mb-10 mt-2 bg-transparent border-2 w-28 rounded-3xl p-1 text-white xl:mt-10 mr-[500px]'>Veja Mais</button></a>
