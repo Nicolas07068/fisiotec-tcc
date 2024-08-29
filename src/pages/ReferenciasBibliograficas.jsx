@@ -5,6 +5,8 @@ export default function ReferenciasBibliograficas() {
   return (
     <div>
       <Header />
+      <div className='xl:max-w-7xl xl:m-auto'>
+      
         <h2 className='text-gradient bg-gradient-to-r  from-verdinho  via-azulzinho to-roxinho bg-clip-text text-transparent mb-10 mt-10 text-3xl font-bold text-center'>BIBLIOGRAFIA</h2>
 
         <div className='text-white mt-6 text-sm ml-8'>
@@ -14,6 +16,7 @@ export default function ReferenciasBibliograficas() {
 
           <p className='mt-10'>3. Fisioterapia motora em pacientes adultos em terapia intensiva. <a className='underline' href="https://www.scielo.br/j/rbti/a/kQpGBH6JxW8MkhjchxjFdvH/"  target="_blank">Clique aqui</a> para acessar. Acesso em: 21 maio 2024.</p>
         </div>
+    </div>
     </div>
   )
 }

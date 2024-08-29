@@ -20,9 +20,14 @@ export default {
          'bg-produto2' : '##161937',
          'bg-produto3' : '##220c39',
          'bg-dev': '#54A7C180',
+         'bg-dev2': '#AA02C6',
          'bg-objetivo': '#a548c6',
-         'bg-telas': '#0B0017'
-      }
+         'bg-telas': '#0B0017',
+         'bg-uso': "url('src/assets/elipse 2.svg')",
+         'bg-ob1':'#2A4C5A',
+         'shadow-ob2':'#44004A',  
+         'shadow-ob3':'#294155',
+      },
     },
   },
   plugins: [],

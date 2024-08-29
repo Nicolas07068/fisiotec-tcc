@@ -15,7 +15,7 @@ export default function Home() {
             <h1 className="text-2xl font-bold font-inter text-gradient bg-gradient-to-r from-verdinho via-azulzinho to-roxinho bg-clip-text text-transparent lg:text-4xl">
               TERAPÊUTICA
             </h1>
-            <p className="text-xs mt-6 mb-5 w-full text-white xl:w-auto xl:text-xl">
+            <p className="text-xs mt-6 mb-5 w-full text-white text-justify xl:w-auto xl:text-xl">
               <i>
                 Uma revolução acessível na reabilitação motora, devolvendo independência e qualidade de vida. Experimente tecnologia de ponta para realizar exercícios fisioterapêuticos no conforto de sua casa.
               </i>

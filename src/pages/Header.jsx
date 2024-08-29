@@ -10,9 +10,9 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-bg-header w-full flex flex-col md:flex-row items-center justify-between px-4 py-2 ">
+    <header className="bg-bg-header w-full flex flex-col md:flex-row items-center justify-between px-4 py-2 md:bg-bg-roxo">
       <div className="flex items-center w-full md:w-auto ">
-        <button onClick={toggleMenu} className="block md:hidden text-white">
+        <button onClick={toggleMenu} className="block md:hidden text-white duration-700">
           <List size={32} />
         </button>
         <img src={Logo} alt="Logo" className="ml-4 lg:ml-2" />
@@ -24,14 +24,14 @@ export default function Header() {
         </h1>
       </div>
       <nav className={`w-full md:w-auto ${isMenuOpen ? 'block' : 'hidden'} md:flex md:space-x-2.5 mt-4 md:mt-2`}>
-        <a href="/" className="block text-white py-2 px-4 ">Home</a>
-        <a href="/objetivo" className="block text-white py-2 px-4">O que é?</a>
-        <a href="/Baseamento" className="block text-white py-2 px-4">Ciência</a>
-        <a href="/Produto" className="block text-white py-2 px-4">Produto</a>
-        <a href="/Componentes" className="block text-white py-2 px-4">Componentes</a>
-        <a href="/ComoUsar" className="block text-white py-2 px-4">Uso</a>
-        <a href="/Desenvolvedores" className="block text-white py-2 px-4">Desenvolvedores</a>
-        <a href="/ReferenciasBibliograficas" className="block text-white py-2 px-4">Referências Bibliográficas</a>
+        <a href="/" className="block text-white py-2 px-4 italic ">Home</a>
+        <a href="/objetivo" className="block text-white py-2 px-4 italic" >O que é?</a>
+        <a href="/Baseamento" className="block text-white py-2 px-4 italic">Ciência</a>
+        <a href="/Produto" className="block text-white py-2 px-4 italic">Produto</a>
+        <a href="/Componentes" className="block text-white py-2 px-4 italic">Componentes</a>
+        <a href="/ComoUsar" className="block text-white py-2 px-4 italic">Uso</a>
+        <a href="/Desenvolvedores" className="block text-white py-2 px-4 italic">Desenvolvedores</a>
+        <a href="/ReferenciasBibliograficas" className="block text-white py-2 px-4 italic">Referências Bibliográficas</a>
       </nav>
     </header>
   );
