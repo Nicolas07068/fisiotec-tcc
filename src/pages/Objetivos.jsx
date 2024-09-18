@@ -42,9 +42,9 @@ export default function Objetivos() {
           <img src={Rev3} alt="Placa de arduino" className='absolute top-48 h-36 ml-64 xl:w-36 ml-72 mt-6' />
         </div>
 
-      <div className='block mt-44 mb-10 ml-10 xl:mr-16 xl:mt-16 flex-row   '>
+      <div className='block mt-44 mb-10 ml-5 xl:mr-16 xl:mt-16 flex-row   '>
       <h2 className='text-3xl text-white font-semibold '>REVOLUÇÃO NA <br/>
-        <strong className='text-gradient bg-gradient-to-r  from-verdinho  via-roxinho to-azulzinho bg-clip-text text-transparent ml-2 xl:ml-0'>
+        <strong className='text-gradient bg-gradient-to-r  from-verdinho  via-roxinho to-azulzinho bg-clip-text text-transparent xl:ml-0'>
         REABILITAÇÃO MOTORA!
         </strong>
       </h2>

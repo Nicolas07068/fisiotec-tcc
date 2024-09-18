@@ -16,47 +16,47 @@ export default function Componentes() {
           <h1 className="text-gradient bg-gradient-to-r from-verdinho via-azulzinho to-roxinho bg-clip-text text-transparent font-bold">USADO?</h1>
         </div>
 
-        <div className='grid grid-cols-2 gap-5 xl:grid-cols-3 justify-items-center mt-10 ml-5 mr-5 text-sm text-center xl:text-lg xl:ml-0'>
-          <div className='xl:h-48 xl:w-64 group xl:mt-[2px]'>
-          <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-xs'>Valor aproximado: R$ 20,00</p>
+        <div className='grid grid-cols-2 gap-5 xl:grid-cols-3 justify-items-center mt-10 ml-5 mr-5 text-sm text-center xl:text-lg xl:ml-0 '>
+          <div className='xl:h-48 xl:w-[272px] group xl:mt-[2px] h-[200px] w-[200px]'>
+          <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-xs text-[8px]'>Valor aproximado: R$ 20,00</p>
             <img src={PonteH} alt="Ponte H" />
-            <p className='bg-gradient-to-l from-verdinho via-azulzinho to-roxinho text rounded-b-md p-1 text-white '>Ponte H</p>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-sm	'>Permite o controle de motores de passos</p>
+            <p className='bg-bg-dev text rounded-b-md p-1 text-white '>Ponte H</p>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-[13px] italic text-[10px]'>Permite o controle de motores de passos</p>
           </div>
 
-          <div className='xl:h-30 xl:w-64 xl:mb-4 group'>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-xs' >Valor aproximado: R$ 35,00</p>
+          <div className='xl:h-30 xl:w-64 xl:mb-6 group h-[185px] w-[185px]'>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-xs text-[8px]' >Valor aproximado: R$ 35,00</p>
             <img src={TelaLCD} alt="Tela LCD" className=''/>
-            <p className='bg-gradient-to-l from-verdinho via-azulzinho to-roxinho text rounded-b-md p-1 text-white'>Tela LCD</p>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-sm' >Usada para controle de exercícios</p>
+            <p className='bg-bg-dev text rounded-b-md p-1 text-white'>Tela LCD</p>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-[13px] italic text-[10px]' >Usada para controle de exercícios</p>
           </div>
 
-          <div className='xl:h-32 xl:w-64 group'>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-xs'>Valor aproximado: R$ 20,00</p>
+          <div className='xl:h-32 xl:w-[272px]  group w-[187px] h-[187px] '>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-xs text-[8px]'>Valor aproximado: R$ 20,00</p>
             <img src={Arduino} alt="Arduino" className='' />
-            <p className='bg-gradient-to-l from-verdinho via-azulzinho to-roxinho text rounded-b-md p-1 text-white'>Arduino</p>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-sm'>Controlador principal do sistema</p>
+            <p className='bg-bg-dev text rounded-b-md p-1 text-white'>Arduino</p>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-[13px] italic text-[10px]'>Controlador principal do sistema</p>
           </div>
 
-          <div className='xl:h-32 xl:w-64 group'>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-xs'>Valor aproximado: R$ 100,00</p>
+          <div className='xl:h-32 xl:w-[272px] group w-[193px] h-[193px]'>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-xs text-[8px]'>Valor aproximado: R$ 100,00</p>
             <img src={MotorDePassos} alt="Motor de Passos"className='' />
-            <p className='bg-gradient-to-l from-verdinho via-azulzinho to-roxinho text rounded-b-md p-1 text-white'>Motor de passos</p>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-sm'>Controlador principal do sistema</p>
+            <p className='bg-bg-dev text rounded-b-md p-1 text-white'>Motor de passos</p>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-[13px] italic text-[10px]'>Controlador principal do sistema</p>
           </div>
 
-          <div className='xl:h-32 xl:w-64 group'>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-xs'>Valor aproximado: R$ 40,00</p>
+          <div className='xl:h-32 xl:w-64 group w-[185px] h-[185px]'>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-xs text-[8px]'>Valor aproximado: R$ 40,00</p>
             <img src={Leds} alt="Conjunto de leds e fios" className=''/>
-            <p className='bg-gradient-to-l from-verdinho via-azulzinho to-roxinho text rounded-b-md p-1 text-white'>Leds, fios e bluetooth</p>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-sm'>Montagem e conexão dos componentes</p>
+            <p className='bg-bg-dev text rounded-b-md p-1 text-white'>Leds, fios e bluetooth</p>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-[13px] italic text-[10px]'>Montagem e conexão dos componentes</p>
           </div>
 
-          <div className='xl:h-32 xl:w-64 group'>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-xs' > Valor aproximado: R$ 25,00</p>
+          <div className='xl:h-32 xl:w-[272px] xl:mt-1 group w-[200px] h-[200px]'>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-xs text-[8px]' > Valor aproximado: R$ 25,00</p>
             <img src={Protoboard} alt="Protoboard" className='' />
-            <p className='bg-gradient-to-l from-verdinho via-azulzinho to-roxinho text rounded-b-md p-1 text-white'>Protoboard</p>
-            <p className='group-hover text-white opacity-0 group-hover:opacity-100 text-sm'> Plataforma para prototipagem de circuitos</p>
+            <p className='bg-bg-dev  text rounded-b-md p-1 text-white'>Protoboard</p>
+            <p className='group-hover text-white opacity-0 group-hover:opacity-50 xl:text-[13px] italic text-[10px] '> Plataforma para prototipagem de circuitos</p>
           </div>
         </div>
       </div>
