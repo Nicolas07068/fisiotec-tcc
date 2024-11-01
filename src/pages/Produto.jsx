@@ -9,7 +9,7 @@ import Header from './Header'
 
 export default function Produto() {
   return (
-    <section className="bg-bg-telas1 xl:h-svh xl:bg-[url('src/assets/EllipseProduto.png')] bg-[length:59%_100%] bg-no-repeat bg-left">
+    <section className="bg-bg-telas1 xl:h-svh xl:bg-[url('./assets/EllipseProduto.png')] bg-[length:59%_100%] bg-no-repeat bg-left">
         <Header></Header>
        <div className="xl:max-w-7xl xl:m-auto text-justify ">
             <div className='text-3xl font-semibold ml-7 xl:text-3xl xl:flex xl:items-center xl:justify-center '>

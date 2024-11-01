@@ -17,7 +17,7 @@ export default function ComoUsar() {
       <div className='xl:flex xl:flex-row-reverse xl:items-start xl:justify-between'>
         <img src={luva} alt="Luva Robótica Terapêutica" className='h-64 ml-[91px] mt-6 mb-6 xl:ml-0 xl:mt-0 xl:h-[596px] xl:w-[596px] xl:mr-7' />
           
-        <section className="bg-[url('src/assets/Ellipse.png')] bg-[length:105%_105%] bg-no-repeat xl:rounded-3xl ">
+        <section className="bg-[url('./assets/Ellipse.png')] bg-[length:105%_105%] bg-no-repeat xl:rounded-3xl ">
         <div className="text-justify text-white text-xs ml-7  leading-7  xl:ml-16 xl:mt-4
          xl:text-base xl:leading-10 w-10/12">
           <p><i>1. Vestir a Luva: Coloque a luva na mão afetada, ajustando-a para maior conforto.</i></p>
