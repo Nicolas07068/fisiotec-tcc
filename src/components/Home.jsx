@@ -4,7 +4,7 @@ import FotoHeader from '../assets/fotoHome.svg';
 export default function Home() {
   return (
   
-    <main className="relative bg-gradient-to-t from-bg-telas via-bghome2 to-bghome1 min-h-screen overflow-x-hidden">
+    <main className="relative bg-gradient-to-t from-bg-telas via-bghome2 to-bghome1 min-h-screen overflow-x-hidden max-w-md xl:max-w-screen-2xl">
         <Header></Header>
       <div className="px-4">
         <div className="mt-10 xl:mt-28 flex flex-col xl:flex-row xl:items-center xl:ml-20">

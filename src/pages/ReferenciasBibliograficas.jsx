@@ -2,9 +2,9 @@ import Header from './Header'
 
 export default function ReferenciasBibliograficas() {
   return (
-    <div className="bg-bg-telas1 h-svh bg-[url('./assets/VetorMob.png')] xl:bg-[url('./assets/Vetorr.png')] bg-[length:100%_85%] bg-no-repeat bg-bottom">
+    <div className=" h-svh bg-bg-telas1  bg-[url('./assets/VetorMob.png')] xl:bg-[url('./assets/Vetorr.png')] bg-[length:100%_85%] bg-no-repeat bg-bottom">
       <Header />
-      <div className='xl:max-w-7xl xl:m-auto'>
+      <div className='xl:max-w-7xl xl:m-auto '>
         <h2 className='text-gradient bg-gradient-to-r  from-verdinho  via-azulzinho to-roxinho bg-clip-text text-transparent mb-10 mt-48 text-3xl font-bold text-center'>BIBLIOGRAFIA</h2>
         <section className="w-11/12 xl:w-full">
           <div className='text-white mt-6 text-sm ml-8 text-justify '>
