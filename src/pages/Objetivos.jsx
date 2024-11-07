@@ -9,7 +9,7 @@ export default function Objetivos() {
       <Header />
       <div className='xl:flex xl:items-center xl:justify-center xl:gap-7 '>
         <div className='bg-bg-ob1 h-36 mt-10 ml-4 text-white text-xs w-11/12 xl:w-96 shadow-[8px_8px_#213444]'>
-          <h2 className='text-base font-bold mb-4 ml-4'>Diferenciais do Projeto</h2> 
+          <h2 className='text-base font-bold mb-3 ml-4'>Diferenciais do Projeto</h2> 
           <ul className='list-disc pl-5 space-y-1'>
           <li>Tecnologia Avançada: Motores de passo, sensores precisos e conectividade Bluetooth.</li>
           <li>Acessível e Econômico: Baixo custo, acessível e adequado para uso doméstico.</li>

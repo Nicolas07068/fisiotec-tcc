@@ -25,14 +25,15 @@ export default function Header() {
       </div>
       <nav className={`w-full md:w-auto ${isMenuOpen ? 'block' : 'hidden'} md:flex md:space-x-2.5 mt-4 md:mt-2`}>
         <a href="/" className="block text-white py-2 px-4 italic ">Home</a>
-        <a href="/objetivo" className="block text-white py-2 px-4 italic" >O que é?</a>
-        <a href="/Baseamento" className="block text-white py-2 px-4 italic">Ciência</a>
-        <a href="/Produto" className="block text-white py-2 px-4 italic">Produto</a>
-        <a href="/Componentes" className="block text-white py-2 px-4 italic">Componentes</a>
-        <a href="/ComoUsar" className="block text-white py-2 px-4 italic">Uso</a>
-        <a href="/Desenvolvedores" className="block text-white py-2 px-4 italic">Desenvolvedores</a>
-        <a href="/ReferenciasBibliograficas" className="block text-white py-2 px-4 italic">Referências Bibliográficas</a>
-        <a href="/nossoJogo" className="block text-white py-2 px-4 italic"> Game</a>
+        <a href="/objetivo" className="block text-white py-2 px-3 italic" >O que é?</a>
+        <a href="/Baseamento" className="block text-white py-2 px-3 italic">Ciência</a>
+        <a href="/Produto" className="block text-white py-2 px-3 italic">Produto</a>
+        <a href="/Componentes" className="block text-white py-2 px-3 italic">Componentes</a>
+        <a href="/ComoUsar" className="block text-white py-2 px-3 italic">Uso</a>
+        <a href="/Desenvolvedores" className="block text-white py-2 px-3 italic">Desenvolvedores</a>
+        <a href="/ReferenciasBibliograficas" className="block text-white py-2 px-3 italic">Referências Bibliográficas</a>
+        <a href="/nossoJogo" className="block text-white py-2 px-3 italic"> Game</a>
+        <a href="/nossoProjeto" className="block text-white py-2 px-3 italic"> Projeto</a>
       </nav>
     </header>
   );

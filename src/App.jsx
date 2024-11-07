@@ -9,6 +9,7 @@ import ComoUsar from './pages/ComoUsar.jsx'
 import Desenvolvedores from './pages/Desenvolvedores.jsx'
 import ReferenciasBibliograficas from './pages/ReferenciasBibliograficas.jsx'
 import Game from './pages/Jogo.jsx'
+import Projeto from './pages/Projeto.jsx'
 
 function App() {
   return(
@@ -23,6 +24,7 @@ function App() {
                   <Route path="/desenvolvedores" element={<Desenvolvedores/>} />
                   <Route path="/referenciasBibliograficas" element={<ReferenciasBibliograficas/>} />
                   <Route path="/nossoJogo" element={<Game/>} />
+                  <Route path="/nossoProjeto" element={<Projeto/>} />
               </Routes>
       </BrowserRouter>
    );
