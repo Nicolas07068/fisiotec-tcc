@@ -21,9 +21,9 @@ export default function Desenvolvedores() {
               <i>Tenho 17 anos e sou apaixonado pelo novo e pela tecnologia, atualmente cursando o 3º ano do Ensino Médio com Técnico em Informática. Me dedico fielmente na parte do desenvolvimento web e robótica do projeto.</i>
             </p>
             <div className='flex justify-center gap-4'>
-              <a href="#"><img src={LogoInstagram} alt="Instagram" className='w-6 h-6' /></a>
-              <a href="#"><img src={LogoLinkedin} alt="LinkedIn" className='w-6 h-6' /></a>
-              <a href="#"><img src={LogoFacebook} alt="Facebook" className='w-6 h-6' /></a>
+              <a href="https://www.instagram.com/gui_alves2712?igsh=YnJ4ZnBoaGN2Mmln" target="_blank"><img src={LogoInstagram} alt="Instagram" className='w-6 h-6' /></a>
+              <a href="https://www.linkedin.com/in/guilherme-alves-lopes-0061952b1?
+" target="_blank"><img src={LogoLinkedin} alt="LinkedIn" className='w-6 h-6'  /></a>
             </div>
           </div>
 
@@ -34,9 +34,9 @@ export default function Desenvolvedores() {
               <i>Com apenas 17 anos e no último ano do ensino médio técnico, tenho me dedicado ao desenvolvimento web. Espero contribuir com soluções criativas para desafios digitais futuros.</i>
             </p>
             <div className='flex justify-center gap-4 '>
-              <a href="#"><img src={LogoInstagram} alt="Instagram" className='w-6 h-6' /></a>
-              <a href="#"><img src={LogoLinkedin} alt="LinkedIn" className='w-6 h-6' /></a>
-              <a href="#"><img src={LogoFacebook} alt="Facebook" className='w-6 h-6' /></a>
+              <a href="https://www.instagram.com/marir_silva?igsh=MXVqZnpnMGlpZmc4eA==" target="_blank" ><img src={LogoInstagram} alt="Instagram" className='w-6 h-6'/></a>
+              <a href="https://www.linkedin.com/in/mariana-silva-oliveira-4186b92b3/
+" target="_blank"><img src={LogoLinkedin} alt="LinkedIn" className='w-6 h-6' /></a>
             </div>
           </div>
 
@@ -48,9 +48,9 @@ export default function Desenvolvedores() {
             <i>Tenho 17, concluindo o ensino médio com técnico em informática. Espero alcançar as expectativas com esse projeto e ajudar no futuro a sociedade.</i>
             </p>
             <div className='flex justify-center gap-4 '>
-              <a href="#"><img src={LogoInstagram} alt="Instagram" className='w-6 h-6' /></a>
-              <a href="#"><img src={LogoLinkedin} alt="LinkedIn" className='w-6 h-6' /></a>
-              <a href="#"><img src={LogoFacebook} alt="Facebook" className='w-6 h-6' /></a>
+              <a href="https://www.instagram.com/n1colas_zs/profilecard/?igsh=bjRwZ3liYzcxcnNj" target="_blank"><img src={LogoInstagram} alt="Instagram" className='w-6 h-6' /></a>
+              <a href="https://br.linkedin.com/in/nicolas-cardoso-aba4102ba
+" target="_blank"><img src={LogoLinkedin} alt="LinkedIn" className='w-6 h-6' /></a>
             </div>
           </div>
         </div>

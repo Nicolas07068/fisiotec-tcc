@@ -10,12 +10,12 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-bg-header w-full flex flex-col md:flex-row items-center justify-between px-4 py-2 md:bg-bg-roxo">
+    <header className=" w-full flex flex-col md:flex-row items-center justify-between px-4 py-2 bg-bg-roxo">
       <div className="flex items-center w-full md:w-auto ">
         <button onClick={toggleMenu} className="block md:hidden text-white duration-700">
           <List size={32} />
         </button>
-        <img src={Logo} alt="Logo" className="ml-4 lg:ml-2" />
+        <img src={Logo} alt="Logo" className="ml-4 lg:ml-8" />
         <h1 className="font-bold text-xl text-white ml-4">
           FISIO 
           <strong className="text-gradient bg-gradient-to-r from-verdinho via-azulzinho to-roxinho bg-clip-text text-transparent text-xl	">
