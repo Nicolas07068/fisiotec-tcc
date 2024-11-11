@@ -33,7 +33,6 @@ export default function Header() {
         <a href="/Desenvolvedores" className="block text-white py-2 px-3 italic">Desenvolvedores</a>
         <a href="/ReferenciasBibliograficas" className="block text-white py-2 px-3 italic">Referências Bibliográficas</a>
         <a href="/nossoJogo" className="block text-white py-2 px-3 italic"> Game</a>
-        <a href="/nossoProjeto" className="block text-white py-2 px-3 italic"> Projeto</a>
       </nav>
     </header>
   );
