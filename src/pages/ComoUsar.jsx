@@ -4,7 +4,7 @@ import luva from '../assets/luva.png'
 
 export default function ComoUsar() {
   return (
-    <div className='bg-bg-telas1 xl:h-svh'>
+    <div className='bg-bg-telas1 h-svh'>
       <Header />
       <div className='bg-gradient-to-tr from-bg-produto1 via-bg-produto2 to-bg-produto3 xl:max-w-7xl xl:m-auto '>
       <h2 className='text-white font-bold text-2xl text-center mt-10 xl:mb-16'>

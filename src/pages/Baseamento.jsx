@@ -12,7 +12,7 @@ export default function Baseamento() {
             <h2 className=' text-gradient bg-gradient-to-r  from-verdinho  via-roxinho to-azulzinho bg-clip-text text-transparent mb-10 xl:mb-6'>CIENTÍFICO</h2>
           </div>
 
-            <p className='ml-5 mb-10 text-white w-11/12 xl:mb-6 w-11/12 text-justify '><i>Segundo a ciência existem condições médicas que afetam significamente o controle muscular e a mobilidade das ações um exemplo é a paralisia cerebral, que atinge cerca de150 mil pessoas por ano. Idosos também possuem alta prevalência de dificuldades motoras. Visto isso, torno essencial desenvolver um dispositivo que melhore a qualidade de vida e que reintegre essas pessoas na sociedade.</i> 
+            <p className='ml-5 mb-10 text-white w-11/12 xl:mb-6 w-11/12 text-justify '><i>Segundo a ciência existem condições médicas que afetam significamente o controle muscular e a mobilidade das ações um exemplo é a paralisia cerebral, que atinge cerca de 150 mil pessoas por ano. Idosos também possuem alta prevalência de dificuldades motoras. Visto isso, torno essencial desenvolver um dispositivo que melhore a qualidade de vida e que reintegre essas pessoas na sociedade.</i> 
             </p>
             <p className='ml-5 text-white w-11/12 text-justify'><i>Independentemente do que tenha resultado na perda na mobilidade das mãos, essa condição compromete a independência para realizar tarefas, tendo impacto mental e emocional, tais como ansiedade e depressão. Além disso, a realização de exercícios fisioterapêuticos com sessões repetitivas para o fortalecimento, apresenta resultados significativos na recuperação de um indivíduo, sendo essencial para realizar tarefas diárias e recuperar sua autonomia.</i></p>
           

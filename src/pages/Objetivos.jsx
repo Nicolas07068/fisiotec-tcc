@@ -51,7 +51,7 @@ export default function Objetivos() {
         MOTORA!
         </strong>
       </h2>
-      <p className='text-white mt-10 xl:w-1/2 text-justify mt-8 mb-0 mr-4 xl:text-sm'><i>A Luva Robótica Terapêutica é um dispositivo inovador que utiliza tecnologia Arduino Uno para ajudar pacientes com dificuldades motoras a realizarem exercícios fisioterapêuticos, abrindo e fechando a mão do usuário para facilitar a recuperação.</i></p>
+      <p className='text-white mt-10 xl:w-1/2 text-justify mt-8 mb-0 mr-4 xl:text-sm'><i>A Luva Robótica Terapêutica é um dispositivo inovador que utiliza tecnologia Arduino para ajudar pacientes com dificuldades motoras a realizarem exercícios fisioterapêuticos, abrindo e fechando a mão do usuário para facilitar a recuperação.</i></p>
       
 
         <a href="/baseamento"><button className='mb-10 mt-20 bg-transparent border-2 w-36 rounded-3xl p-1 text-white xl:mt-10 mr-[500px]'>Veja Mais</button></a>

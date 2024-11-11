@@ -8,7 +8,7 @@ import Header from './Header'
 
 export default function Componentes() {
   return (
-    <section className='bg-bg-telas1 xl:h-svh'> 
+    <section className='bg-bg-telas1 h-svh'> 
       <Header /> 
       <div className='xl:max-w-7xl xl:m-auto '>
         <div className='font-bold ml-7 mt-10 mb-10 text-2xl xl:flex  xl:items-center xl:justify-center'>

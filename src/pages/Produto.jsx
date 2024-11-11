@@ -23,7 +23,7 @@ export default function Produto() {
                          <div className='items-center mb-10 xl:mb-0'>
                             <img src={MaoRoboticaImg} alt="" className='mb-6 ml-12 xl:ml-16 xl:  ' />
                             <p className='text-white text-[12px] text-center w-36 text-justify xl:w-48 '>
-                                <i>A Luva Robótica Terapêutica é um dispositivo inovador que utiliza tecnologia Arduino Uno para ajudar pacientes com dificuldades motoras a realizarem exercícios fisioterapêuticos, abrindo e fechando a mão do usuário para facilitar a recuperação.</i>
+                                <i>A Luva Robótica Terapêutica é um dispositivo inovador que utiliza tecnologia Arduino para ajudar pacientes com dificuldades motoras a realizarem exercícios fisioterapêuticos, abrindo e fechando a mão do usuário para facilitar a recuperação.</i>
                             </p>
                         </div>
                     
